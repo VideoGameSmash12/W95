@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "w95",
+  "version": "${version}",
+  "name": "W95",
+  "description": "Administrative utility mod for TotalFreedom",
+  "authors": [
+    "videogamesm12"
+  ],
+  "contact": {
+    "homepage": "https://videogamesm12.me"
+  },
+  "license": "MIT",
+  "icon": "assets/w95/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.videogamesm12.w95.entrypoints.W95"
+    ]
+  },
+  "mixins": [
+    "95.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": ">=1.16.5"
+  }
+}

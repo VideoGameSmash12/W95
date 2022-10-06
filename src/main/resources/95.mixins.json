@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.videogamesm12.w95.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "hooks.BlockEntityRenderDispatcherInjector",
+    "hooks.ClientAccessor",
+    "hooks.ClientPlayNetworkHandlerInjector",
+    "hooks.ClientWorldAccessor",
+    "hooks.DebugHudAccessor",
+    "hooks.GameRendererInjector",
+    "hooks.HudAccessor",
+    "hooks.HudInjector",
+    "hooks.ItemRendererInjector",
+    "hooks.LightingProviderInjector",
+    "hooks.MinecraftClientInjector",
+    "hooks.TextureManagerMixin",
+    "hooks.TextureManagerMixin$TMAccessor",
+    "hooks.WorldRendererInjector",
+    "patches.HoverEventEntityPatch",
+    "patches.PacketNBTOverloadPatch"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
